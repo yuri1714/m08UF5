@@ -1,0 +1,39 @@
+table { 
+    width: 50%;
+    height: 150%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align:left;
+    vertical-align:top;
+    border: 1px solid #000;
+    border-spacing:0;
+}
+td.hora {
+    text-align: center;
+    vertical-align: middle;
+}
+td.sistemas {
+    background:#1ECD70;
+    font-family:monospace;
+}
+td.redes {
+    background:#DDD706;
+    font-family:serif
+}
+td.aplicaciones {
+    background:#06DDB1;
+    font-family:cursive;
+}
+td.EIE {
+    background:#DD061A;
+    font-family:fantasy;
+}
+td.seguridad {
+    background:#1CDD06;
+    font-family:sans-serif
+}
+#patio {
+    text-align: center;
+    vertical-align: middle;
+}
