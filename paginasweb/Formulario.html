@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <link href='../css/Formlarios.css' rel='stylesheet' type='text/css'>
+    </head>
+
+<body>
+<h1>Curriculum</h1>    
+    <form action='paina2.html' method='post'>
+        <fieldset id='Informacion_Basica'>
+            <legend><b><big>Informacion Basica</big></b></legend>
+                <label>Nombre</label>
+                <br>
+                <input type='text' name='nombre' size='100'>
+                <br>
+                <label>Altura en centimetros</label>
+                <br>
+                <input type='number' name='Altura'>
+                <br>
+                <label>email</label>
+                <br>
+                <input type='email' name='email'>
+                <br>
+                <label>Fecha Nacimiento:</label>
+                <br>
+                <input type='date' name='Fecha de nacimiento'>
+        </fieldset>
+        <fieldset id='Nacionalidad'>
+            <legend><b><big>Nacionalidad</big></b></legend>
+                <input type='radio' name='nacionalidad' value='Española' checked='checked'>Española
+                <input type='radio' name='nacionalidad' value='Comunitario(UE)'>Comunitario(UE)
+                <input type='radio' name='nacionalidad' value='No comunitario'>No comunitario
+        </fieldset>
+        <fieldset id='Estudios'>
+            <legend><b><big>Estudios</big></b></legend>
+                <select id='estudios' name='estudios'>
+                    <option value='GM'>GM</option>
+                    <option value='GS'>GS</option>
+                    <option value='ESSO'>ESSO</option>
+                    <option value='Bachiller'>Bachiller</option>
+                    <option value='UNI'>UNI</option>
+                </select>
+        </fieldset>
+        <fieldset id='Idiomas'>
+            <legend><b><big>Idiomas</big></b></legend>
+                <input type='checkbox' name='idiomas' value='Catalan' checked='checked'>Catalan
+                <input type='checkbox' name='idiomas' value='Castellano'>Castellano
+                <input type='checkbox' name='idiomas' value='Ingles'>Ingles
+                <input type='checkbox' name='idiomas' value='Chino'>Chino
+        </fieldset>
+        <fieldset id='Botones'>
+            <input type='submit' name='Enviar'>
+            <input type='reset' name='cancel'>
+        </fieldset>
+    </form>
